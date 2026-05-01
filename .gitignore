@@ -1,0 +1,23 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments (Windows + WSL)
+.venv/
+.wsl_venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local temporary runner scripts
+_wsl_temp_vqe_notebook.py
+_wsl_h2_curve_runner.py
+
+# Generated outputs
+h2_pe_curve_comparison.png
+
+# Editor/system noise
+.vscode/
+.DS_Store
+Thumbs.db
